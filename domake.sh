@@ -1,4 +1,10 @@
 #!/bin/bash
+
+
+# export tool-chain env
+source ./env.rc
+
+
 make clean
 make OptLIB=3 OptSRC=3 all tshow
 #make OptLIB=0 OptSRC=0 all tshow
